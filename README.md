@@ -240,7 +240,7 @@ async function clickSetLocalCfg() {
 
 > 此处原本是demo.html中保存文件路径的方法，可以参考此进行硬编码等配置文件上传路径
 
-![image-20250418094857819](C:\Users\IMAKAZU\AppData\Roaming\Typora\typora-user-images\image-20250418094857819.png)
+![image-20250418094857819](assets/image-20250418094857819.png)
 
 > 详细见HCWebSDK开发指南
 
