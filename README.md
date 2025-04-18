@@ -8,25 +8,25 @@
 
 ##### 3.激活设备
 
-![image-20250414150957188](assets\image-20250414150957188.png)
+![image-20250414150957188](assets/image-20250414150957188.png)
 
 ##### 4.进行网络参数配置，使摄像头IP地址与网关与路由器相配
 
-![image-20250414151220122](assets\image-20250414151220122.png)
+![image-20250414151220122](assets/image-20250414151220122.png)
 
 > 注意：HTTP端口(80)用于前端登录设备,端口(8000)用于后端登录设备
 
 ##### 5.浏览器打开摄像头IP地址，进行插件下载，安装前需要先关闭浏览器
 
-![image-20250414151359145](assets\image-20250414151359145.png)
+![image-20250414151359145](assets/image-20250414151359145.png)
 
 ##### 6.安装完成后，重新在浏览器打开摄像头IP地址，进行相关设置
 
-![image-20250418103251533](assets\image-20250418103251533.png)
+![image-20250418103251533](assets/image-20250418103251533.png)
 
-![image-20250418103734837](assets\image-20250418103734837.png)
+![image-20250418103734837](assets/image-20250418103734837.png)
 
-![image-20250418103828086](assets\image-20250418103828086.png)
+![image-20250418103828086](assets/image-20250418103828086.png)
 
 > 在调试过程中，没有修改默认配置，后续可以按需修改
 
@@ -36,21 +36,21 @@
 
 ##### 1.下载[Web插件开发包](https://open.hikvision.com/download/5cda567cf47ae80dd41a54b3?type=10&id=4c945d18fa5f49638ce517ec32e24e24)
 
-![image-20250418091151900](assets\image-20250418091151900.png)
+![image-20250418091151900](assets/image-20250418091151900.png)
 
 ##### 2.解压后进入`WebSDK3.3.9_20241031151026\WebSDK3.3.9\webs\codebase`下，双击安装HCWebSDKPlugin
 
-![image-20250418091430843](assets\image-20250418091430843.png)
+![image-20250418091430843](assets/image-20250418091430843.png)
 
 ##### 3.进入目录`WebSDK3.3.9_20241031151026\WebSDK3.3.9\webs\cn`,打开demo.html
 
 此时，输入摄像头IP地址，账号密码等并开启预览，应该可以正常看到画面
 
-![image-20250418092024854](assets\image-20250418092024854.png)
+![image-20250418092024854](assets/image-20250418092024854.png)
 
 ##### 4.将相关的css,js文件放到admin模块的`resources/static`目录下
 
-![image-20250418092918293](assets\image-20250418092918293.png)
+![image-20250418092918293](assets/image-20250418092918293.png)
 
 ##### 5.在想要使用摄像头功能的页面 引入css，js文件
 
@@ -248,21 +248,21 @@ async function clickSetLocalCfg() {
 
 ##### 1.下载[设备网络SDK](https://open.hikvision.com/download/5cda567cf47ae80dd41a54b3?type=10&id=5cda5902f47ae80dd41a54b7)
 
-![image-20250418100007905](assets\image-20250418100007905.png)
+![image-20250418100007905](assets/image-20250418100007905.png)
 
 ##### 2.安装插件
 
-![image-20250418100205674](assets\image-20250418100205674.png)
+![image-20250418100205674](assets/image-20250418100205674.png)
 
 ##### 3.将库文件中所有内容拷贝到/resources目录下
 
-![image-20250418100903580](assets\image-20250418100903580.png)
+![image-20250418100903580](assets/image-20250418100903580.png)
 
-![image-20250418100430360](assets\image-20250418100430360.png)
+![image-20250418100430360](assets/image-20250418100430360.png)
 
 ##### 4.在Demo示例中，找到Java示例，寻找lib文件夹和NetSDKDemo文件夹，放置到项目中
 
-![image-20250418101139611](assets\image-20250418101139611.png)
+![image-20250418101139611](assets/image-20250418101139611.png)
 
 ##### 5.将两个jar包添加到依赖中
 
@@ -285,7 +285,7 @@ async function clickSetLocalCfg() {
 
 ##### 6.修改HCNetSDK中的.dll文件路径
 
-![image-20250418101824055](assets\image-20250418101824055.png)
+![image-20250418101824055](assets/image-20250418101824055.png)
 
 ```java
  	// 获取项目根目录
@@ -432,6 +432,6 @@ public class PlateRecognition {
 
 Main方法调用，可以正常识别
 
-![image-20250418101702606](assets\image-20250418101702606.png)
+![image-20250418101702606](assets/image-20250418101702606.png)
 
 > 注意，jdk版本不低于17，否则可能加载不到主类
